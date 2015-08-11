@@ -4,7 +4,9 @@ This is a node.js module that checks whether or not input is valid JSON.
 
 ## Requirements
 
-No dependencies required.
+No dependencies required for regular use.
+
+Mocha and chai are required for running tests.
 
 ## Installation and Usage
 
@@ -18,6 +20,20 @@ var myData = '{"knockKnock":"whosThere"}';
 var isJson = jsonApprover(myData);
 
 ...
+```
+
+## Running Tests
+
+Make sure that you have mocha and chai installed:
+
+```
+npm install
+```
+
+Now run the tests:
+
+```
+make test
 ```
 
 ## Contributions
