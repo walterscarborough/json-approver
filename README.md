@@ -17,9 +17,9 @@ var jsonApprover = require('json-approver');
 
 var myData = '{"knockKnock":"whosThere"}';
 
-var isJson = jsonApprover(myData);
+var isJson = jsonApprover.isJson(myData);
 
-...
+// isJson will be true or false
 ```
 
 ## Running Tests
