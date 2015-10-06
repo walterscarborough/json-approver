@@ -1,6 +1,6 @@
 {
   "name": "json-approver",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "Checks whether or not input is valid json.",
   "main": "json-approver.js",
   "scripts": {
